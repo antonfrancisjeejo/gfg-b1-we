@@ -1,0 +1,22 @@
+.parent {
+  background-color: chartreuse;
+  /* position: relative; */
+}
+
+.child1 {
+  background-color: chocolate;
+  position: static;
+  /* top: 5px; */
+  bottom: 10px;
+  /* left: 20px; */
+  /* right: 100px; */
+  /* top, right, bottom, left */
+}
+
+.child2 {
+  background-color: aqua;
+}
+
+.child3 {
+  background-color: palevioletred;
+}

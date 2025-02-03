@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+  text-align: center;
+  background-color: #8a2be2;
+}
+
+h1 {
+  font-size: 80px;
+  color: #dbedf3;
+  font-family: "Arvo", serif;
+  text-shadow: 3px 0 #da0463;
+}
+
+.w {
+  background-image: url("images/tom1.png");
+}
+.a {
+  background-image: url("images/tom2.png");
+}
+.s {
+  background-image: url("images/tom3.png");
+}
+.d {
+  background-image: url("images/tom4.png");
+}
+.j {
+  background-image: url("images/snare.png");
+}
+.k {
+  background-image: url("images/crash.png");
+}
+.l {
+  background-image: url("images/kick.png");
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #800080;
+  font-size: 80px;
+  font-family: "Arvo", serif;
+  color: #da0463;
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  text-shadow: 3px 0 white;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}

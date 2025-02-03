@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+body {
+  font-family: "Lato", serif;
+  background-image: url("https://wallpapercave.com/wp/wp14492509.jpg");
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.countdown {
+  display: flex;
+  transform: scale(2);
+}
+
+.time {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time p {
+  margin: 0;
+}
+
+.year {
+  font-size: 200px;
+  margin: 50px;
+  font-weight: 900;
+  opacity: 0.4;
+}

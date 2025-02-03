@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.box {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+
+.container > .box:nth-child(1) {
+  flex: 0.5;
+}
+
+.container > .box:nth-child(3) {
+  flex: 1;
+}
+
+/* .container > div {
+  background-color: blue;
+} */
+
+.container div {
+  background-color: blue;
+}
+/* 
+div + p {
+  color: blueviolet;
+} */
+
+/* div ~ p {
+  color: blueviolet;
+} */
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: yellowgreen;
+}
+
+a:hover {
+  color: chocolate;
+}
+
+h1::first-letter {
+  color: red;
+  font-size: 40px;
+}
+
+a[target="_blank"] {
+  background-color: green;
+}

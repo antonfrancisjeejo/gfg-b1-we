@@ -1,0 +1,19 @@
+img {
+  width: 90%;
+}
+
+h1 {
+  color: red;
+}
+
+/* @media screen and (max-width: 765px) {
+  h1 {
+    color: green;
+  }
+} */
+
+@media screen and (min-width: 765px) {
+  h1 {
+    color: green;
+  }
+}
