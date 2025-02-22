@@ -22,6 +22,11 @@ const App = () => {
 
   useEffect(() => {
     getAdvice();
+
+    return () => {
+      setAdvice("");
+      setLoading(true);
+    };
   }, []);
 
   return (
