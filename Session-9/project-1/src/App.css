@@ -1,0 +1,32 @@
+.app {
+  background: url("./assets/bg.jpg");
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: whitesmoke;
+  width: 40%;
+  height: 20%;
+  border-radius: 25px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  outline: none;
+  border-radius: 50px;
+  border: 1px solid rgb(32, 32, 149);
+  margin-top: 50px;
+  background-color: white;
+  width: 210px;
+  height: 40px;
+  cursor: pointer;
+}

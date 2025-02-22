@@ -1,0 +1,42 @@
+.addCompany {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.addCompany__formContainer {
+  box-shadow: 1px 4px 12px -2px rgba(0, 0, 0, 0.43);
+  background: #0575e6;
+  padding: 30px;
+  width: 500px;
+}
+
+.addCompany__formContainer input {
+  border: 1px solid #e5e5e5;
+  outline: none;
+  padding: 15px 10px;
+  width: 80%;
+  border-radius: 8px;
+  margin: 10px 0;
+  background: transparent;
+  color: white;
+  font-size: 14px;
+}
+
+.addCompany__formContainer input::placeholder {
+  color: #e5e5e5;
+}
+
+.addCompany__formContainer button {
+  background: transparent;
+  border: 1px solid white;
+  font-size: 18px;
+  color: white;
+  padding: 10px;
+  width: 200px;
+  margin-top: 30px;
+  border-radius: 12px;
+  cursor: pointer;
+}
