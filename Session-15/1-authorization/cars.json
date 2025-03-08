@@ -1,0 +1,26 @@
+[
+  {
+    "brand": "Honda",
+    "userId": 1
+  },
+  {
+    "brand": "Nissan",
+    "userId": 1
+  },
+  {
+    "brand": "Ford",
+    "userId": 1
+  },
+  {
+    "brand": "Lexus",
+    "userId": 2
+  },
+  {
+    "brand": "BMW",
+    "userId": 2
+  },
+  {
+    "brand": "Mercedes",
+    "userId": 2
+  }
+]
