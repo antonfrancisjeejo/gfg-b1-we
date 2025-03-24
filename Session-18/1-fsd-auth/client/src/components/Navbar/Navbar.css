@@ -1,0 +1,24 @@
+.navbar {
+  background-color: #ff4b2b;
+  padding: 12px 20px;
+}
+
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 30%;
+}
+
+.navbar ul li {
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+}
